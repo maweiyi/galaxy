@@ -1,3 +1,16 @@
+### Binance USDT Trading Pairs Sorter
+
+This project is designed to sort Binance USDT trading pairs by market capitalization. It fetches the latest data from Binance and CoinMarketCap APIs, processes the data, and outputs the sorted list of trading pairs.
+
+#### Features
+
+- Fetches trading pair data from Binance.
+- Retrieves market capitalization data from CoinMarketCap.
+- Sorts USDT trading pairs by market capitalization.
+- Outputs the sorted list in a TradingView format.
+
+
+
 ### How to Use
 * Configure the following in your application.properties file:
 ```
@@ -18,3 +31,6 @@ coinmarketcap.key= #your key
 ```
 * Copy the data from data and save it to a .txt file, ensuring there are no quotes at the beginning or end.
 * Import the saved file into TradingView to see all the sorted cryptocurrencies.
+
+#### Quick Start
+* If you want to quickly start, directly import the cryptos_2024-05-20.txt file into TradingView to see all the cryptocurrencies.
